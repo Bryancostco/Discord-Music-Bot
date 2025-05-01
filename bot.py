@@ -282,6 +282,6 @@ async def main():
         await bot.add_cog(Music(bot))
         print("✅ Music cog added.")
         DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
-        await bot.start("DISCORD_TOKEN") 
+        await bot.start(DISCORD_TOKEN) 
 
 asyncio.run(main())
